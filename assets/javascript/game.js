@@ -11,7 +11,7 @@ var key = [
     ["Black-eyed peas are a type of beans.", "t"]
 ];
 
-var remain = 300;
+var remain = 120;
 
 var minutes = Math.floor((remain % (60 * 60)) / (60));
 var s = Math.floor((remain % (60)) / (60));
@@ -34,7 +34,7 @@ function end() {
 
 $(document).ready(function() {
 
-    $("#timer").html("5:00");
+    $("#timer").html("2:00");
 
 
     function time() {
@@ -49,7 +49,7 @@ $(document).ready(function() {
     }
     var countDown = setInterval(time, 1000);
 
-    setTimeout(end, 300000);
+    setTimeout(end, 120000);
 
     $("#score").html(text);
 
@@ -65,14 +65,15 @@ $(document).ready(function() {
             incorrect++;
         }
         q++;
-        if (key[q] === undefined) {
-            end();
-        }
-        setInterval(next, 2000);
+        setTimeout(next, 2000);
+
+
     }
 
     function next() {
-
+        if (key[q] === undefined) {
+          end();
+        }
         $("#question").html(key[q][0]);
         $("#answer").html('<button id="true" class="ui-button ui-widget ui-corner-all">True</button><button id=false class="ui-button ui-widget ui-corner-all">False</button>');
 
