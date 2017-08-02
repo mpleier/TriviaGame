@@ -1,0 +1,130 @@
+* {
+  border-radius: 25px;
+
+}
+body {
+  background: url("");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+}
+h1 {
+
+  background-color: orange;
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0.67em;
+  margin-right: 0.67em;
+  font-weight: bold;
+  width: 300px;
+  padding: 25px;
+  text-align: center;
+}
+#instructions {
+  background-color: tan;
+  display: block;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 1.2em;
+  margin-right: 0.67em;
+  padding: 25px;
+  width: 300px;
+}
+
+#gems {
+  margin-left: 1.2em;
+}
+
+#wrap {
+  display: flex;
+}
+
+#target {
+  display: block;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 1.2em;
+  margin-right: 0.67em;
+  padding: 25px;
+  width: 180px;
+  background-color: lightgreen;
+    flex: 0 0 150px;
+}
+
+#score {
+  display: block;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 1.2em;
+  margin-right: 0.67em;
+  padding: 25px;
+  width: 80px;
+  background-color: lightblue;
+  flex: 0 0 80px;
+
+}
+#total {
+display: block;
+margin-top: 0.67em;
+margin-bottom: 0.67em;
+margin-left: 1.2em;
+margin-right: 0.67em;
+padding: 25px;
+width: 180px;
+background-color: turquoise;
+}
+
+#words {
+display: block;
+margin-top: 0.67em;
+margin-bottom: 0.67em;
+margin-left: 1.2em;
+margin-right: 0.67em;
+padding: 25px;
+width: 180px;
+background-color: turquoise;
+}
+
+#start{
+  display: block;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 1.2em;
+  margin-right: 0.67em;
+  padding: 25px;
+  width: 180px;
+  background-color: turquoise;
+}
+#timer{
+  display: block;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 1.2em;
+  margin-right: 0.67em;
+  padding: 25px;
+  width: 180px;
+  background-color: turquoise;
+}
+#question{
+
+    background-color: tan;
+    display: block;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 1.2em;
+    margin-right: 0.67em;
+    padding: 25px;
+    width: 300px;
+}
+#answer{
+
+    background-color: tan;
+    display: block;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 1.2em;
+    margin-right: 0.67em;
+    padding: 25px;
+    width: 300px;
+}
